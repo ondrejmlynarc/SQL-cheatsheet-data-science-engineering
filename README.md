@@ -12,7 +12,7 @@ This cheatsheet provides a quick reference for essential SQL commands and concep
 3. [Handling Null Values](#handling-null-values)
    - [IS NULL](#is-null)
    - [COALESCE](#coalesce)
-   - [IFNULL (MySQL) / NVL (Oracle)](#ifnull-mysql--nvl-oracle)
+   - [IFNULL](#ifnull)
 4. [Joins](#joins)
    - [INNER JOIN](#inner-join)
    - [LEFT JOIN](#left-join)
