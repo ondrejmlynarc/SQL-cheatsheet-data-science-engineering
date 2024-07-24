@@ -196,7 +196,6 @@ WHERE EXISTS (SELECT 1 FROM table2 t2 WHERE t1.id = t2.id);
 Creates a new database.
 
 ```sql
-Copy code
 CREATE DATABASE database_name;
 ```
 
@@ -212,7 +211,6 @@ CREATE TABLE table_name (
 ### ALTER TABLE
 Modifies an existing table.
 ```sql
-Copy code
 ALTER TABLE table_name
 ADD column_name datatype;
 ```
@@ -221,7 +219,6 @@ ADD column_name datatype;
 Deletes an existing table.
 
 ```sql
-Copy code
 DROP TABLE table_name;
 ```
 
@@ -229,7 +226,6 @@ DROP TABLE table_name;
 Perform operations like COUNT, SUM, AVG, MIN, and MAX.
 
 ```sql
-Copy code
 SELECT COUNT(*), AVG(column), MIN(column), MAX(column)
 FROM table_name;
 ```
@@ -261,7 +257,6 @@ FROM table_name;
 ## Common Table Expressions (CTEs)
 Named temporary result sets that can be referenced within a SELECT, INSERT, UPDATE, or DELETE statement.
 ```sql
-Copy code
 WITH cte_name AS (
     SELECT column1, column2
     FROM table_name
