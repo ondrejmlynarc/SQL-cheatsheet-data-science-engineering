@@ -277,7 +277,6 @@ WHERE condition;
 Adds new records to a table.
 
 ```sql
-Copy code
 INSERT INTO table_name (column1, column2)
 VALUES (value1, value2);
 ```
@@ -285,7 +284,6 @@ VALUES (value1, value2);
 ### UPDATE
 Modifies existing records.
 ```sql
-Copy code
 UPDATE table_name
 SET column1 = value1
 WHERE condition;
@@ -295,7 +293,6 @@ WHERE condition;
 Removes records.
 
 ```sql
-Copy code
 DELETE FROM table_name
 WHERE condition;
 ```
@@ -305,7 +302,6 @@ WHERE condition;
 Improves the speed of data retrieval operations.
 
 ```sql
-Copy code
 CREATE INDEX index_name
 ON table_name (column_name);
 ```
@@ -314,7 +310,6 @@ ON table_name (column_name);
 Provides information about how a query is executed.
 
 ```sql
-Copy code
 EXPLAIN SELECT column1
 FROM table_name
 WHERE condition;
